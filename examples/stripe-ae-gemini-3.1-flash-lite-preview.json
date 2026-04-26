@@ -1,0 +1,101 @@
+{
+  "job_title": "Account Executive, Funded Startups - New Business",
+  "company_name": "Stripe",
+  "seniority": "mid",
+  "work_setting": "hybrid",
+  "skills": [
+    {
+      "name": "Full sales cycle management",
+      "name_normalized": "sales_cycle_management",
+      "category": "ability",
+      "mention": [
+        "about_position",
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Stripe API",
+      "name_normalized": "api_knowledge",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Consultative selling",
+      "name_normalized": "consultative_selling",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Analytical and quantitative capabilities",
+      "name_normalized": "data_analysis",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Modeling",
+      "name_normalized": "financial_modeling",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 2
+    },
+    {
+      "name": "Verbal and written communication",
+      "name_normalized": "communication",
+      "category": "relational",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "SaaS",
+      "name_normalized": "saas",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Relationship building",
+      "name_normalized": "relationship_building",
+      "category": "relational",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Technical conversations",
+      "name_normalized": "technical_communication",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Sales strategy development",
+      "name_normalized": "sales_strategy",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 3
+    }
+  ]
+}

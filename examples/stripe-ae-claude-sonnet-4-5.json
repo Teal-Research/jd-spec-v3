@@ -1,0 +1,228 @@
+{
+  "job_title": "Account Executive, Funded Startups - New Business",
+  "company_name": "Stripe",
+  "seniority": "mid",
+  "work_setting": "hybrid",
+  "skills": [
+    {
+      "name": "Sales",
+      "name_normalized": "sales",
+      "category": "domain",
+      "mention": [
+        "requirements",
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Full sales cycle management",
+      "name_normalized": "full_sales_cycle_management",
+      "category": "domain",
+      "mention": [
+        "about_position",
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Client facing experience",
+      "name_normalized": "client_facing",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Relationship building",
+      "name_normalized": "relationship_building",
+      "category": "relational",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Lead qualification",
+      "name_normalized": "lead_qualification",
+      "category": "domain",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Consultative selling",
+      "name_normalized": "consultative_selling",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "API understanding",
+      "name_normalized": "api",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Technical knowledge",
+      "name_normalized": "technical_knowledge",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "SaaS experience",
+      "name_normalized": "saas",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Startup experience",
+      "name_normalized": "startup_experience",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Analytical skills",
+      "name_normalized": "analytical_skills",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Quantitative analysis",
+      "name_normalized": "quantitative_analysis",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Financial modeling",
+      "name_normalized": "financial_modeling",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Written communication",
+      "name_normalized": "written_communication",
+      "category": "relational",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Verbal communication",
+      "name_normalized": "verbal_communication",
+      "category": "relational",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Cross-functional collaboration",
+      "name_normalized": "cross_functional_collaboration",
+      "category": "relational",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Ambiguity management",
+      "name_normalized": "ambiguity_management",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Process development",
+      "name_normalized": "process_development",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Prospecting",
+      "name_normalized": "prospecting",
+      "category": "domain",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Multi-stakeholder sales",
+      "name_normalized": "multi_stakeholder_sales",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Competitive positioning",
+      "name_normalized": "competitive_positioning",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Technology interest",
+      "name_normalized": "technology_interest",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "VC/Venture capital knowledge",
+      "name_normalized": "venture_capital",
+      "category": "domain",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 2
+    },
+    {
+      "name": "Buyer journey understanding",
+      "name_normalized": "buyer_journey",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    }
+  ]
+}

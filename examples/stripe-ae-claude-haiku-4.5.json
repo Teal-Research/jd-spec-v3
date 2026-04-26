@@ -1,0 +1,164 @@
+{
+  "job_title": "Account Executive, Funded Startups - New Business",
+  "company_name": "Stripe",
+  "seniority": "entry",
+  "work_setting": "hybrid",
+  "skills": [
+    {
+      "name": "Sales",
+      "name_normalized": "sales",
+      "category": "ability",
+      "mention": [
+        "requirements",
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Sales Cycle Management",
+      "name_normalized": "sales_cycle_management",
+      "category": "ability",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Lead Generation",
+      "name_normalized": "lead_generation",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Client Relationship Management",
+      "name_normalized": "client_relationship_management",
+      "category": "relational",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Consultative Selling",
+      "name_normalized": "consultative_selling",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Technical Communication",
+      "name_normalized": "technical_communication",
+      "category": "relational",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "API Understanding",
+      "name_normalized": "api_understanding",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Financial Infrastructure",
+      "name_normalized": "financial_infrastructure",
+      "category": "domain",
+      "mention": [
+        "about_company"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Payment Processing",
+      "name_normalized": "payment_processing",
+      "category": "domain",
+      "mention": [
+        "about_company"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "SaaS",
+      "name_normalized": "saas",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Startup Experience",
+      "name_normalized": "startup_experience",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Analytical Skills",
+      "name_normalized": "analytical_skills",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Financial Modeling",
+      "name_normalized": "financial_modeling",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 2
+    },
+    {
+      "name": "Communication",
+      "name_normalized": "communication",
+      "category": "relational",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Venture Capital Knowledge",
+      "name_normalized": "venture_capital_knowledge",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 2
+    },
+    {
+      "name": "Process Development",
+      "name_normalized": "process_development",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Stakeholder Management",
+      "name_normalized": "stakeholder_management",
+      "category": "relational",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    }
+  ]
+}

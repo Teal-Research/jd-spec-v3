@@ -8,12 +8,24 @@ const client = new OpenAI({
   })
 
 async function extractJD(jdText: string){
-    const model = 'anthropic/claude-sonnet-4-5'
+    const openroutermodel = 'anthropic/claude-haiku-4.5'
+    const provider = openroutermodel.split('/')[0]
+    const model = openroutermodel.split('/')[1]
+    
+    //Get the Schemas
+    const sharedSchema = readFileSync('types/shared.ts', 'utf-8');
+    const extractedSchema = readFileSync('types/extracted.ts', 'utf-8');
+    
+    //Get Prompt
     const promptTemplate = readFileSync('prompts/extract.md', 'utf-8');
-    const prompt = promptTemplate.replace('{{JD_TEXT}}', jdText);
+
+    //loads the JD
+    const prompt = promptTemplate
+        .replace('{{SCHEMA}}', sharedSchema + '\n\n' + extractedSchema)
+        .replace('{{JD_TEXT}}', jdText)
 
     const response = await client.chat.completions.create({
-        model: model,
+        model: openroutermodel,
         messages: [{ role: 'user', content: prompt }],
     })
 
@@ -23,11 +35,11 @@ async function extractJD(jdText: string){
     return { result: JSON.parse(cleaned), model }
 }
 
-const jdText = readFileSync('sample-jds/openai-engineer.md', 'utf-8')
+const jdText = readFileSync('sample-jds/stripe-account-executive.md', 'utf-8')
 
 extractJD(jdText)
   .then(({ result, model }) => {
-    const file = `examples/sample-output-${model.replace('anthropic/', '')}.json`
+    const file = `examples/stripe-ae-${model}.json`
     writeFileSync(file, JSON.stringify(result, null, 2))
     console.log(`Saved to ${file}`)
   })
