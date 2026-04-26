@@ -1,0 +1,300 @@
+{
+  "job_title": "ChatGPT Performance Engineer",
+  "company_name": "OpenAI",
+  "seniority": "senior",
+  "work_setting": "remote",
+  "skills": [
+    {
+      "name": "Performance Engineering",
+      "name_normalized": "performance engineering",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Distributed Systems",
+      "name_normalized": "distributed systems",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Performance Profiling",
+      "name_normalized": "performance profiling",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Tracing Systems",
+      "name_normalized": "tracing systems",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Database Optimization",
+      "name_normalized": "database optimization",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Networking",
+      "name_normalized": "networking",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Storage Systems",
+      "name_normalized": "storage systems",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Python",
+      "name_normalized": "python",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Golang",
+      "name_normalized": "golang",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "GPU Utilization",
+      "name_normalized": "gpu utilization",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "OS Internals",
+      "name_normalized": "operating system internals",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Scheduling",
+      "name_normalized": "scheduling",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Memory Management",
+      "name_normalized": "memory management",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "IO Patterns",
+      "name_normalized": "io patterns",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Observability",
+      "name_normalized": "observability",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Benchmarking",
+      "name_normalized": "benchmarking",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Root-cause Analysis",
+      "name_normalized": "root-cause analysis",
+      "category": "ability",
+      "mention": [
+        "about_position"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Instrumentation",
+      "name_normalized": "instrumentation",
+      "category": "technology",
+      "mention": [
+        "about_position"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Architecture Design",
+      "name_normalized": "architecture design",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Performance Testing",
+      "name_normalized": "performance testing",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "SLA/SLO Definition",
+      "name_normalized": "sla slo definition",
+      "category": "domain",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Garbage Collection Tuning",
+      "name_normalized": "garbage collection tuning",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Cross-functional Collaboration",
+      "name_normalized": "cross-functional collaboration",
+      "category": "relational",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Stakeholder Alignment",
+      "name_normalized": "stakeholder alignment",
+      "category": "relational",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Tooling Development",
+      "name_normalized": "tooling development",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Infrastructure Optimization",
+      "name_normalized": "infrastructure optimization",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Scalability",
+      "name_normalized": "scalability",
+      "category": "domain",
+      "mention": [
+        "about_position",
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Reliability Engineering",
+      "name_normalized": "reliability engineering",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Ambiguity Navigation",
+      "name_normalized": "ambiguity navigation",
+      "category": "ability",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Systems Thinking",
+      "name_normalized": "systems thinking",
+      "category": "ability",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Software Engineering",
+      "name_normalized": "software engineering",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    }
+  ]
+}
