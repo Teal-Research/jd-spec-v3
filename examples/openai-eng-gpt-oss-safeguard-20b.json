@@ -1,0 +1,360 @@
+{
+  "job_title": "ChatGPT Performance Engineer",
+  "company_name": "OpenAI",
+  "company_industry": "Artificial Intelligence Research and Deployment",
+  "department": "Applied AI Engineering",
+  "seniority": "senior",
+  "employment_type": "full_time",
+  "is_management": false,
+  "work_setting": {
+    "policy": "hybrid",
+    "office_days_per_week_min": 0,
+    "office_days_per_week_max": 0,
+    "location": "San Francisco, New York City, Seattle, US",
+    "geo_restrictions": [
+      "must reside in US"
+    ],
+    "policy_text": "Applied AI Engineering - San Francisco, New York City, Seattle, and Remote - US"
+  },
+  "role_summary": "OpenAI is looking for an experienced Performance Engineer to help us scale the performance, reliability, and efficiency of our systems.",
+  "responsibilities": [
+    "Analyze and optimize performance across application, middleware, runtime, and infrastructure layers—networking, storage, Python runtime, GPU utilization, and beyond.",
+    "Develop tooling and metrics that provide deep observability into system performance.",
+    "Collaborate closely with infra, platform, training, and product teams to identify key performance goals and drive systemic improvements.",
+    "Influence architecture and design decisions to prioritize latency, throughput, and efficiency at scale.",
+    "Lead investigations into high-impact performance regressions or scalability issues in production.",
+    "Drive performance testing strategies and help define SLAs/SLOs around latency and throughput for critical systems."
+  ],
+  "requirements": [
+    "Have 7+ years of experience in software engineering with a strong track record in performance or reliability of high-scale distributed systems.",
+    "Are deeply comfortable with performance profiling tools and tracing systems.",
+    "Have experience optimizing performance across one or more layers of the stack (e.g., database, networking, storage, application runtime, GC tuning, Python/Golang internals, GPU utilization).",
+    "Have a strong understanding of OS internals, scheduling, memory management, and IO patterns.",
+    "Have contributed to observability, benchmarking, or performance-focused infrastructure at scale.",
+    "Have demonstrated success navigating ambiguity and aligning stakeholders around performance goals."
+  ],
+  "preferred_qualifications": [
+    "Value simplicity, rigor, and collaboration when solving complex systems problems."
+  ],
+  "experience_years_min": 7,
+  "visa_sponsorship": "unknown",
+  "salary_min": 325000,
+  "salary_max": 405000,
+  "salary_currency": "USD",
+  "salary_interval": "annual",
+  "equity_offered": true,
+  "benefits": [
+    {
+      "category": "equity",
+      "description": "Offers Equity"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Performance Engineering",
+      "name_normalized": "performance engineering",
+      "category": "domain",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Distributed Systems",
+      "name_normalized": "distributed systems",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Root Cause Analysis",
+      "name_normalized": "root cause analysis",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Profiling",
+      "name_normalized": "profiling",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Instrumentation",
+      "name_normalized": "instrumentation",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Architecture-Level Performance Improvements",
+      "name_normalized": "architecture level performance improvements",
+      "category": "ability",
+      "mention": [
+        "about_position"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Latency",
+      "name_normalized": "latency",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Throughput",
+      "name_normalized": "throughput",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Cost Efficiency",
+      "name_normalized": "cost efficiency",
+      "category": "ability",
+      "mention": [
+        "about_position"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Performance Testing",
+      "name_normalized": "performance testing",
+      "category": "technology",
+      "mention": [
+        "about_position"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "SLAs",
+      "name_normalized": "slas",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "SLOs",
+      "name_normalized": "slos",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Performance Profiling Tools",
+      "name_normalized": "performance profiling tools",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Tracing Systems",
+      "name_normalized": "tracing systems",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Networking",
+      "name_normalized": "networking",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Storage",
+      "name_normalized": "storage",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Python Runtime",
+      "name_normalized": "python runtime",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "GPU Utilization",
+      "name_normalized": "gpu utilization",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Database",
+      "name_normalized": "database",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "GC Tuning",
+      "name_normalized": "gc tuning",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Python Internals",
+      "name_normalized": "python internals",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Golang Internals",
+      "name_normalized": "golang internals",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "OS Internals",
+      "name_normalized": "os internals",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Scheduling",
+      "name_normalized": "scheduling",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Memory Management",
+      "name_normalized": "memory management",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "IO Patterns",
+      "name_normalized": "io patterns",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Observability",
+      "name_normalized": "observability",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Benchmarking",
+      "name_normalized": "benchmarking",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Performance-Focused Infrastructure",
+      "name_normalized": "performance focused infrastructure",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Simplicity",
+      "name_normalized": "simplicity",
+      "category": "ability",
+      "mention": [
+        "preferred_qualifications"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Rigor",
+      "name_normalized": "rigor",
+      "category": "ability",
+      "mention": [
+        "preferred_qualifications"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Collaboration",
+      "name_normalized": "collaboration",
+      "category": "ability",
+      "mention": [
+        "preferred_qualifications"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Complex Systems Problem Solving",
+      "name_normalized": "complex systems problem solving",
+      "category": "ability",
+      "mention": [
+        "preferred_qualifications"
+      ],
+      "importance": 3
+    }
+  ]
+}

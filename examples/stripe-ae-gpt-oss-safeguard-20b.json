@@ -1,0 +1,197 @@
+{
+  "job_title": "Account Executive, Funded Startups - New Business",
+  "company_name": "Stripe",
+  "company_industry": "Financial Technology",
+  "department": "New Business Sales",
+  "seniority": "mid",
+  "employment_type": "full_time",
+  "work_setting": {
+    "policy": "hybrid",
+    "office_days_per_week_min": 2,
+    "office_days_per_week_max": 5,
+    "location": "South San Francisco, CA, USA",
+    "policy_text": "Office-assigned Stripes in most of our locations are currently expected to spend at least 50% of the time in a given month in their local office or with users."
+  },
+  "role_summary": "As a Startup Account Executive at Stripe, you will drive Stripe’s future growth engine by building relationships with founders of the fastest growing venture-backed companies. You’ll manage inbound leads and the full sales cycle through onboarding, turning them into happy Stripe users.",
+  "responsibilities": [
+    "Own the full sales cycle from lead to close for startups",
+    "Identify high-potential prospective users from inbound leads",
+    "Lead and contribute to team projects to develop and refine our sales process, including engaging with Accelerators and VC firms",
+    "Engage with Product, Marketing and User Operations teams to help amplify our growth trajectory"
+  ],
+  "requirements": [
+    "2+ years of sales or client facing experience, preferably at a high-growth Saas company, bank, consultancy or venture capital firm, with a track record of top performance",
+    "Ability to understand the Stripe API and build great relationships with highly technical founders",
+    "Ability to understand complex requirements and craft custom solutions",
+    "Strong analytical and quantitative capabilities including comfort with basic modeling",
+    "Superior verbal and written communication skills",
+    "Ability to operate in a highly ambiguous and fast-paced environment",
+    "Strong interest in technology"
+  ],
+  "experience_years_min": 2,
+  "visa_sponsorship": "unknown",
+  "salary_min": 163600,
+  "salary_max": 245400,
+  "salary_currency": "USD",
+  "salary_interval": "annual",
+  "equity_offered": true,
+  "benefits": [
+    {
+      "category": "equity",
+      "description": "equity"
+    },
+    {
+      "category": "bonus",
+      "description": "company bonus or sales commissions/bonuses"
+    },
+    {
+      "category": "retirement",
+      "description": "401(k) plan"
+    },
+    {
+      "category": "health",
+      "description": "medical, dental, and vision benefits"
+    },
+    {
+      "category": "wellness",
+      "description": "wellness stipends"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Sales cycle management",
+      "name_normalized": "sales cycle management",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Client-facing experience",
+      "name_normalized": "client facing experience",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "SaaS industry experience",
+      "name_normalized": "saas industry experience",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Banking, consulting or venture capital background",
+      "name_normalized": "banking consulting venture capital background",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Stripe API knowledge",
+      "name_normalized": "stripe api knowledge",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Technical conversations",
+      "name_normalized": "technical conversations",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Business-level conversations",
+      "name_normalized": "business level conversations",
+      "category": "relational",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Buyer journey understanding",
+      "name_normalized": "buyer journey understanding",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Complex multi-party sales",
+      "name_normalized": "complex multi party sales",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Consultative sales approach",
+      "name_normalized": "consultative sales approach",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Relationship building",
+      "name_normalized": "relationship building",
+      "category": "relational",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Analytical modeling",
+      "name_normalized": "analytical modeling",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Verbal and written communication",
+      "name_normalized": "verbal and written communication",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Adaptability in ambiguous and fast-paced environments",
+      "name_normalized": "adaptability ambiguous fast paced",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Technology interest",
+      "name_normalized": "technology interest",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    }
+  ]
+}

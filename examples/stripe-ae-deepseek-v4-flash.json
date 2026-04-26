@@ -1,0 +1,118 @@
+{
+  "job_title": "Account Executive, Funded Startups - New Business",
+  "company_name": "Stripe",
+  "seniority": "mid",
+  "work_setting": "hybrid",
+  "skills": [
+    {
+      "name": "Sales",
+      "name_normalized": "sales",
+      "category": "ability",
+      "mention": [
+        "requirements",
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Client facing",
+      "name_normalized": "client facing",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Relationship building",
+      "name_normalized": "relationship building",
+      "category": "relational",
+      "mention": [
+        "about_position"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Technical knowledge",
+      "name_normalized": "technical knowledge",
+      "category": "ability",
+      "mention": [
+        "about_position"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Stripe API",
+      "name_normalized": "stripe api",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Analytical skills",
+      "name_normalized": "analytical skills",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Quantitative skills",
+      "name_normalized": "quantitative skills",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Communication skills",
+      "name_normalized": "communication skills",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Consultative selling",
+      "name_normalized": "consultative selling",
+      "category": "ability",
+      "mention": [
+        "about_position"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Startup experience",
+      "name_normalized": "startup experience",
+      "category": "domain",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Venture capital",
+      "name_normalized": "venture capital",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Basic modeling",
+      "name_normalized": "basic modeling",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    }
+  ]
+}

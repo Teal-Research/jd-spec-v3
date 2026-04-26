@@ -8,8 +8,7 @@ const client = new OpenAI({
   })
 
 async function extractJD(jdText: string){
-    const openroutermodel = 'anthropic/claude-haiku-4.5'
-    const provider = openroutermodel.split('/')[0]
+    const openroutermodel = 'openai/gpt-oss-safeguard-20b'
     const model = openroutermodel.split('/')[1]
     
     //Get the Schemas
@@ -35,11 +34,11 @@ async function extractJD(jdText: string){
     return { result: JSON.parse(cleaned), model }
 }
 
-const jdText = readFileSync('sample-jds/stripe-account-executive.md', 'utf-8')
+const jdText = readFileSync('sample-jds/openai-engineer.md', 'utf-8')
 
 extractJD(jdText)
   .then(({ result, model }) => {
-    const file = `examples/stripe-ae-${model}.json`
+    const file = `examples/openai-eng-${model}.json`
     writeFileSync(file, JSON.stringify(result, null, 2))
     console.log(`Saved to ${file}`)
   })
