@@ -1,0 +1,89 @@
+You are a job description parser. 
+Extract structured data from the job description below and return valid JSON matching this schema:
+
+```typescript
+export interface Skill {
+    name: string
+    name_normalized : string 
+    category : 'technology' | 'relational' | 'domain' | 'ability'
+    mention : Array<'about_company' | 'about_position' | 'requirements' | 'responsibilities' | 'preferred_qualifications'>
+    importance: 1 | 2 | 3 | 4 | 5  // 1 = nice to have, 5 = must have
+}
+
+export interface ExtractedJD {
+    job_title : string
+    company_name : string
+    seniority: 'intern' | 'entry' | 'mid' | 'senior' | 'director' | 'executive'
+    work_setting: 'remote' | 'hybrid' | 'onsite'
+    skills: Skill[]
+}
+```
+
+Rules:
+- Return only valid JSON, no explanation
+- If a field cannot be determined from the JD, omit it
+- For skills, extract every distinct skill mentioned anywhere in the JD
+
+Job description:
+ChatGPT Performance Engineer
+Applied AI Engineering - San Francisco, New York City, Seattle, and Remote - US
+
+About the Team
+We bring OpenAI's technology to the world through products like ChatGPT and the OpenAI API.
+
+We seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. Safety is more important to us than unfettered growth.
+
+About the Role
+OpenAI is looking for an experienced Performance Engineer to help us scale the performance, reliability, and efficiency of our systems. In this role, you'll apply deep technical expertise to optimize infrastructure and application-level performance across mission-critical products like ChatGPT and our developer API. You’ll work cross-functionally with teams building core services, training models, and developing real-time user experiences to push our latency, throughput, and cost-efficiency to the next level.
+
+We are looking for engineers who thrive in ambiguous environments, value deep systems understanding, and are motivated by delivering measurable impact. This is a highly technical, individual contributor role focused on root-cause analysis, profiling, instrumentation, and architecture-level performance improvements across our stack.
+
+In this role, you will:
+Analyze and optimize performance across application, middleware, runtime, and infrastructure layers—networking, storage, Python runtime, GPU utilization, and beyond.
+
+Develop tooling and metrics that provide deep observability into system performance.
+
+Collaborate closely with infra, platform, training, and product teams to identify key performance goals and drive systemic improvements.
+
+Influence architecture and design decisions to prioritize latency, throughput, and efficiency at scale.
+
+Lead investigations into high-impact performance regressions or scalability issues in production.
+
+Drive performance testing strategies and help define SLAs/SLOs around latency and throughput for critical systems.
+
+You might thrive in this role if you:
+Have 7+ years of experience in software engineering with a strong track record in performance or reliability of high-scale distributed systems.
+
+Are deeply comfortable with performance profiling tools and tracing systems.
+
+Have experience optimizing performance across one or more layers of the stack (e.g., database, networking, storage, application runtime, GC tuning, Python/Golang internals, GPU utilization).
+
+Have a strong understanding of OS internals, scheduling, memory management, and IO patterns.
+
+Have contributed to observability, benchmarking, or performance-focused infrastructure at scale.
+
+Have demonstrated success navigating ambiguity and aligning stakeholders around performance goals.
+
+Value simplicity, rigor, and collaboration when solving complex systems problems.
+
+About OpenAI
+
+OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity. 
+
+We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.
+
+For additional information, please see OpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement.
+
+Background checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.
+
+To notify OpenAI that you believe this job posting is non-compliant, please submit a report through this form. No response will be provided to inquiries unrelated to job posting compliance.
+
+We are committed to providing reasonable accommodations to applicants with disabilities, and requests can be made via this link.
+
+OpenAI Global Applicant Privacy Policy
+
+At OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.
+
+Compensation
+
+$325K – $405K + Offers Equity
