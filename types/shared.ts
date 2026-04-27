@@ -15,7 +15,8 @@ export type BenefitCategory =
     'bonus' |           // performance, sign-on, annual
     'wellness' |        // gym, mental health, EAP
     'learning' |        // tuition, conferences, certifications
-    'remote_stipend' |  // home office, internet allowance
+    'remote_stipend' |  // home office cash allowance, internet reimbursement
+    'equipment' |       // company-provided gear, laptop, peripherals
     'meals' |           // food, snacks, catering
     'commuter' |        // transit, parking
     'insurance' |       // life, disability, pet
