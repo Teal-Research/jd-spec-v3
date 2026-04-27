@@ -1,0 +1,35 @@
+{
+  "id": "0ec39ed7-a5dc-4551-bb26-b7f4f9fb4a74",
+  "title": "Software Engineer, Growth ",
+  "department": "Engineering",
+  "team": "Enterprise & Foundation",
+  "employmentType": "FullTime",
+  "location": "San Francisco",
+  "secondaryLocations": [
+    {
+      "location": "New York",
+      "address": {
+        "postalAddress": {
+          "addressRegion": "NY",
+          "addressCountry": "United States",
+          "addressLocality": "New York"
+        }
+      }
+    }
+  ],
+  "publishedAt": "2025-10-30T16:47:27.463+00:00",
+  "isListed": true,
+  "isRemote": false,
+  "workplaceType": "OnSite",
+  "address": {
+    "postalAddress": {
+      "addressRegion": "CA",
+      "addressCountry": "United States",
+      "addressLocality": "San Francisco"
+    }
+  },
+  "jobUrl": "https://jobs.ashbyhq.com/cursor/0ec39ed7-a5dc-4551-bb26-b7f4f9fb4a74",
+  "applyUrl": "https://jobs.ashbyhq.com/cursor/0ec39ed7-a5dc-4551-bb26-b7f4f9fb4a74/application",
+  "descriptionHtml": "<p style=\"min-height:1.5em\">Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.</p><h2><strong>About the Role</strong></h2><p style=\"min-height:1.5em\">As a Product Engineer on the Growth team at Cursor, you'll design and implement systems and features related to Onboarding, Monetization, and the core product experience.</p><p style=\"min-height:1.5em\"></p><h2><strong>You may be a fit if</strong></h2><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">You have an entrepreneurial spirit and love creating outsized business impact.</p></li><li><p style=\"min-height:1.5em\">You want to be at the frontier of AI transformation with the best companies in the world.</p></li><li><p style=\"min-height:1.5em\">You're passionate about building great products that blend excellent engineering with a taste for models and design.</p></li><li><p style=\"min-height:1.5em\">You have a propensity for creative ideas and have a knack for making powerful tools without compromising their ease-of-use.</p></li></ul><p style=\"min-height:1.5em\"></p><h2>Applying</h2><p style=\"min-height:1.5em\">If there appears to be a fit, we'll reach to schedule 2-3 short technicals. After, we'll schedule an onsite in our office, where you'll work on a small project, discuss ideas, and meet the team.</p><p style=\"min-height:1.5em\">#LI-DNI</p>",
+  "descriptionPlain": "Our mission is to automate coding. The first step in our journey is to build the best tool for professional programmers, using a combination of inventive research, design, and engineering. Our organization is very flat, and our team is small and talent dense. We particularly like people who are truth-seeking, passionate, and creative. We enjoy spirited debate, crazy ideas, and shipping code.\n\n\nABOUT THE ROLE\n\nAs a Product Engineer on the Growth team at Cursor, you'll design and implement systems and features related to Onboarding, Monetization, and the core product experience.\n\n\nYOU MAY BE A FIT IF\n\n - You have an entrepreneurial spirit and love creating outsized business impact.\n\n - You want to be at the frontier of AI transformation with the best companies in the world.\n\n - You're passionate about building great products that blend excellent engineering with a taste for models and design.\n\n - You have a propensity for creative ideas and have a knack for making powerful tools without compromising their ease-of-use.\n\n\nAPPLYING\n\nIf there appears to be a fit, we'll reach to schedule 2-3 short technicals. After, we'll schedule an onsite in our office, where you'll work on a small project, discuss ideas, and meet the team.\n\n#LI-DNI"
+}
