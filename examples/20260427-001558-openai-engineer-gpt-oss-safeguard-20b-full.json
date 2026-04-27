@@ -1,0 +1,425 @@
+{
+  "job_title": "ChatGPT Performance Engineer",
+  "department": "Applied AI Engineering",
+  "seniority": "senior",
+  "employment_type": "full_time",
+  "company_name": "OpenAI",
+  "company_industry": "Artificial Intelligence",
+  "company_description": "OpenAI is an AI research and deployment company dedicated to ensuring that general‑purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products.",
+  "work_setting": {
+    "policy": "flexible",
+    "location": "San Francisco, New York City, Seattle, Remote",
+    "geo_restrictions": [
+      "must reside in US"
+    ],
+    "policy_text": "San Francisco, New York City, Seattle, and Remote - US"
+  },
+  "role_summary": "OpenAI is looking for an experienced Performance Engineer to help scale performance, reliability, and efficiency of our systems across mission‑critical products like ChatGPT and the OpenAI API.",
+  "responsibilities": [
+    "Analyze and optimize performance across application, middleware, runtime, and infrastructure layers—networking, storage, Python runtime, GPU utilization, and beyond.",
+    "Develop tooling and metrics that provide deep observability into system performance.",
+    "Collaborate closely with infra, platform, training, and product teams to identify key performance goals and drive systemic improvements.",
+    "Influence architecture and design decisions to prioritize latency, throughput, and efficiency at scale.",
+    "Lead investigations into high‑impact performance regressions or scalability issues in production.",
+    "Drive performance testing strategies and help define SLAs/SLOs around latency and throughput for critical systems."
+  ],
+  "requirements": [
+    "Have 7+ years of experience in software engineering with a strong track record in performance or reliability of high‑scale distributed systems.",
+    "Are deeply comfortable with performance profiling tools and tracing systems.",
+    "Have experience optimizing performance across one or more layers of the stack (e.g., database, networking, storage, application runtime, GC tuning, Python/Golang internals, GPU utilization).",
+    "Have a strong understanding of OS internals, scheduling, memory management, and IO patterns.",
+    "Have contributed to observability, benchmarking, or performance‑focused infrastructure at scale.",
+    "Have demonstrated success navigating ambiguity and aligning stakeholders around performance goals.",
+    "Value simplicity, rigor, and collaboration when solving complex systems problems."
+  ],
+  "preferred_qualifications": [],
+  "experience_years_min": 7,
+  "visa_sponsorship": "unknown",
+  "salary_min": 325000,
+  "salary_max": 405000,
+  "salary_currency": "USD",
+  "salary_interval": "annual",
+  "equity_offered": true,
+  "skills": [
+    {
+      "name": "performance engineering",
+      "name_normalized": "performance engineering",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "performance profiling tools",
+      "name_normalized": "performance profiling tools",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "tracing systems",
+      "name_normalized": "tracing systems",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "latency",
+      "name_normalized": "latency",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "throughput",
+      "name_normalized": "throughput",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "cost-efficiency",
+      "name_normalized": "cost efficiency",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "root‑cause analysis",
+      "name_normalized": "root cause analysis",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "instrumentation",
+      "name_normalized": "instrumentation",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "architecture‑level performance improvements",
+      "name_normalized": "architecture level performance improvements",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "application performance",
+      "name_normalized": "application performance",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "middleware",
+      "name_normalized": "middleware",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "runtime",
+      "name_normalized": "runtime",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "networking",
+      "name_normalized": "networking",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "storage",
+      "name_normalized": "storage",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "python runtime",
+      "name_normalized": "python runtime",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "gpu utilization",
+      "name_normalized": "gpu utilization",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "database",
+      "name_normalized": "database",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "os internals",
+      "name_normalized": "os internals",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "scheduling",
+      "name_normalized": "scheduling",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "memory management",
+      "name_normalized": "memory management",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "io patterns",
+      "name_normalized": "io patterns",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "gc tuning",
+      "name_normalized": "gc tuning",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "python",
+      "name_normalized": "python",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "golang internals",
+      "name_normalized": "golang internals",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "observability",
+      "name_normalized": "observability",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "benchmarking",
+      "name_normalized": "benchmarking",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "distributed systems",
+      "name_normalized": "distributed systems",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "scalability",
+      "name_normalized": "scalability",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "sla",
+      "name_normalized": "sla",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "slo",
+      "name_normalized": "slo",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "cross‑functional collaboration",
+      "name_normalized": "cross functional collaboration",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "stakeholder alignment",
+      "name_normalized": "stakeholder alignment",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "problem solving",
+      "name_normalized": "problem solving",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "simplicity",
+      "name_normalized": "simplicity",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "rigor",
+      "name_normalized": "rigor",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "collaboration",
+      "name_normalized": "collaboration",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "complex systems problems",
+      "name_normalized": "complex systems problems",
+      "category": "ability",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 4
+    }
+  ],
+  "_meta": {
+    "model": "openai/gpt-oss-safeguard-20b",
+    "jd_source": "sample-jds/openai-engineer.md",
+    "timestamp": "2026-04-27T00:15:53.850Z",
+    "duration_ms": 5207,
+    "tokens_in": 2006,
+    "tokens_out": 4113,
+    "tokens_total": 6119,
+    "cost_usd": null,
+    "enriched_with": "openai/gpt-oss-safeguard-20b",
+    "enriched_at": "2026-04-27T00:15:58.638Z",
+    "enrich_duration_ms": 4787,
+    "enrich_tokens_in": 2909,
+    "enrich_tokens_out": 3272
+  },
+  "role_pitch": "Join OpenAI as a ChatGPT Performance Engineer and lead the cutting‑edge optimization of the world’s most advanced language model, ensuring lightning‑fast responses for millions worldwide. Your expertise will shape the future of AI delivery by turning complex performance challenges into scalable, high‑reliability solutions.",
+  "ideal_candidate": "An engineer who thrives at the intersection of systems depth and product impact, comfortable diving into OS internals, GPU stacks, and distributed runtimes while translating findings into actionable design choices. They love ambiguity, collaborate cross‑functionally, and have a proven record of driving measurable latency and throughput gains in production.",
+  "role_synonyms": [
+    "Senior Performance Engineer",
+    "Systems Performance Engineer",
+    "Infrastructure Performance Engineer",
+    "Performance Optimization Engineer"
+  ],
+  "typical_prior_roles": [
+    "Senior Software Engineer – Distributed Systems",
+    "Performance Engineer",
+    "Systems Reliability Engineer"
+  ],
+  "typical_next_roles": [
+    "Principal Engineer – Performance",
+    "Engineering Manager – Performance / Reliability",
+    "Director of Engineering – Applied AI"
+  ],
+  "comp_vs_market": "Competitive for a senior performance engineering role in AI at a top tech hub, with a base salary ranging from $325k to $405k and equity.",
+  "search_keywords": [
+    "AI performance engineer",
+    "ChatGPT performance",
+    "distributed systems performance",
+    "latency optimization",
+    "GPU performance tuning",
+    "observability engineer",
+    "SLA performance",
+    "high‑scale system performance",
+    "runtime profiling",
+    "Python runtime performance"
+  ]
+}

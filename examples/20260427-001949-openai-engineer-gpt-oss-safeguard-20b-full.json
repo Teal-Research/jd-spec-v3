@@ -1,0 +1,444 @@
+{
+  "job_title": "ChatGPT Performance Engineer",
+  "department": "Applied AI Engineering",
+  "seniority": "senior",
+  "employment_type": "full_time",
+  "company_name": "OpenAI",
+  "company_industry": "AI research and deployment",
+  "company_description": "OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products.",
+  "work_setting": {
+    "policy": "remote",
+    "location": "San Francisco, New York City, Seattle, Remote",
+    "geo_restrictions": [
+      "must reside in US"
+    ],
+    "policy_text": "San Francisco, New York City, Seattle, and Remote - US"
+  },
+  "role_summary": "OpenAI is looking for an experienced Performance Engineer to help us scale the performance, reliability, and efficiency of our systems. In this role, you'll apply deep technical expertise to optimize infrastructure and application-level performance across mission‑critical products like ChatGPT and our developer API.",
+  "responsibilities": [
+    "Analyze and optimize performance across application, middleware, runtime, and infrastructure layers—networking, storage, Python runtime, GPU utilization, and beyond.",
+    "Develop tooling and metrics that provide deep observability into system performance.",
+    "Collaborate closely with infra, platform, training, and product teams to identify key performance goals and drive systemic improvements.",
+    "Influence architecture and design decisions to prioritize latency, throughput, and efficiency at scale.",
+    "Lead investigations into high-impact performance regressions or scalability issues in production.",
+    "Drive performance testing strategies and help define SLAs/SLOs around latency and throughput for critical systems."
+  ],
+  "requirements": [
+    "Have 7+ years of experience in software engineering with a strong track record in performance or reliability of high-scale distributed systems.",
+    "Are deeply comfortable with performance profiling tools and tracing systems.",
+    "Have experience optimizing performance across one or more layers of the stack (e.g., database, networking, storage, application runtime, GC tuning, Python/Golang internals, GPU utilization).",
+    "Have a strong understanding of OS internals, scheduling, memory management, and IO patterns.",
+    "Have contributed to observability, benchmarking, or performance-focused infrastructure at scale.",
+    "Have demonstrated success navigating ambiguity and aligning stakeholders around performance goals.",
+    "Value simplicity, rigor, and collaboration when solving complex systems problems."
+  ],
+  "experience_years_min": 7,
+  "visa_sponsorship": "unknown",
+  "salary_min": 325000,
+  "salary_max": 405000,
+  "salary_currency": "USD",
+  "salary_interval": "annual",
+  "equity_offered": true,
+  "skills": [
+    {
+      "name": "Performance engineering",
+      "name_normalized": "performance engineering",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Infrastructure",
+      "name_normalized": "infrastructure",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Application-level performance",
+      "name_normalized": "application-level performance",
+      "category": "technology",
+      "mention": [
+        "about_position",
+        "responsibilities"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Root-cause analysis",
+      "name_normalized": "root-cause analysis",
+      "category": "ability",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Profiling",
+      "name_normalized": "profiling",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Instrumentation",
+      "name_normalized": "instrumentation",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Architecture-level performance improvements",
+      "name_normalized": "architecture-level performance improvements",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Latency",
+      "name_normalized": "latency",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Throughput",
+      "name_normalized": "throughput",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Cost-efficiency",
+      "name_normalized": "cost-efficiency",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Observability",
+      "name_normalized": "observability",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Benchmarking",
+      "name_normalized": "benchmarking",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Performance testing",
+      "name_normalized": "performance testing",
+      "category": "technology",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "SLAs",
+      "name_normalized": "slas",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "SLOs",
+      "name_normalized": "slos",
+      "category": "technology",
+      "mention": [
+        "responsibilities"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "High-scale distributed systems",
+      "name_normalized": "high-scale distributed systems",
+      "category": "domain",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Performance profiling tools",
+      "name_normalized": "performance profiling tools",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Tracing systems",
+      "name_normalized": "tracing systems",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Database",
+      "name_normalized": "database",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Networking",
+      "name_normalized": "networking",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Storage",
+      "name_normalized": "storage",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Application runtime",
+      "name_normalized": "application runtime",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "GC tuning",
+      "name_normalized": "gc tuning",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Python runtime",
+      "name_normalized": "python runtime",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Python",
+      "name_normalized": "python",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Golang internals",
+      "name_normalized": "golang internals",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "GPU utilization",
+      "name_normalized": "gpu utilization",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "GPU",
+      "name_normalized": "gpu",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "OS internals",
+      "name_normalized": "os internals",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Scheduling",
+      "name_normalized": "scheduling",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Memory management",
+      "name_normalized": "memory management",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "IO patterns",
+      "name_normalized": "io patterns",
+      "category": "technology",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Deep systems understanding",
+      "name_normalized": "deep systems understanding",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 5
+    },
+    {
+      "name": "Cross-functional collaboration",
+      "name_normalized": "cross-functional collaboration",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Stakeholder alignment",
+      "name_normalized": "stakeholder alignment",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 4
+    },
+    {
+      "name": "Simplicity",
+      "name_normalized": "simplicity",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Rigor",
+      "name_normalized": "rigor",
+      "category": "ability",
+      "mention": [
+        "requirements"
+      ],
+      "importance": 3
+    },
+    {
+      "name": "Collaboration",
+      "name_normalized": "collaboration",
+      "category": "ability",
+      "mention": [
+        "responsibilities",
+        "requirements"
+      ],
+      "importance": 4
+    }
+  ],
+  "_meta": {
+    "model": "openai/gpt-oss-safeguard-20b",
+    "jd_source": "sample-jds/openai-engineer.md",
+    "timestamp": "2026-04-27T00:19:43.342Z",
+    "duration_ms": 7781,
+    "tokens_in": 2006,
+    "tokens_out": 4505,
+    "tokens_total": 6511,
+    "cost_usd": null,
+    "enriched_with": "openai/gpt-oss-safeguard-20b",
+    "enriched_at": "2026-04-27T00:19:49.633Z",
+    "enrich_duration_ms": 6287,
+    "enrich_tokens_in": 3005,
+    "enrich_tokens_out": 3171
+  },
+  "role_pitch": "Lead the next wave of AI performance, ensuring ChatGPT and our developer API run with world‑class speed and efficiency. Your deep system expertise will shape the future of large‑scale, latency‑sensitive AI services.",
+  "ideal_candidate": "You thrive when complex, high‑volume systems challenge your analytical skills and you relish turning raw metrics into tangible, game‑changing optimizations. You are a collaborative problem‑solver who can navigate ambiguity, align cross‑functional teams, and translate performance goals into measurable SLAs that drive product success.",
+  "role_synonyms": [
+    "Senior Performance Engineer",
+    "Infrastructure Performance Engineer",
+    "Systems Performance Engineer",
+    "AI Performance Specialist"
+  ],
+  "typical_prior_roles": [
+    "Senior Software Engineer – Performance",
+    "Lead DevOps Engineer",
+    "Principal Systems Engineer – Infrastructure"
+  ],
+  "typical_next_roles": [
+    "Engineering Manager – Performance",
+    "Director of Reliability Engineering",
+    "Principal Engineer – AI Systems"
+  ],
+  "comp_vs_market": "Competitive for senior performance roles in the AI sector; salary range $325k–$405k plus equity aligns with or slightly exceeds industry benchmarks for similar high‑impact positions.",
+  "search_keywords": [
+    "performance engineer",
+    "AI performance engineer",
+    "ChatGPT performance",
+    "infrastructure performance",
+    "systems performance",
+    "latency optimization",
+    "throughput tuning",
+    "GPU performance engineer",
+    "observability engineer",
+    "performance testing engineer"
+  ]
+}
