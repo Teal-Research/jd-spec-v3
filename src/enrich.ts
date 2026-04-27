@@ -7,17 +7,16 @@ const client = new OpenAI({
     apiKey: process.env.OPENROUTER_API_KEY,
 })
 
-async function enrichJD(extractedPath: string) {
+export async function enrichJD(extracted: object) {
     const openroutermodel = 'openai/gpt-oss-safeguard-20b'
     const model = openroutermodel.split('/')[1]
 
-    const extractedRaw = readFileSync(extractedPath, 'utf-8')
     const enrichmentSchema = readFileSync('types/enriched.ts', 'utf-8')
     const promptTemplate = readFileSync('prompts/enrich.md', 'utf-8')
 
     const prompt = promptTemplate
         .replace('{{ENRICHMENT_SCHEMA}}', enrichmentSchema)
-        .replace('{{EXTRACTED_JD}}', extractedRaw)
+        .replace('{{EXTRACTED_JD}}', JSON.stringify(extracted, null, 2))
 
     const start = Date.now()
     const response = await client.chat.completions.create({
@@ -43,15 +42,18 @@ async function enrichJD(extractedPath: string) {
     return { result, model }
 }
 
-const extractedPath = process.argv[2] ?? 'examples/openai-eng-gpt-oss-safeguard-20b.json'
-
-enrichJD(extractedPath)
-    .then(({ result, model }) => {
-        const outPath = extractedPath.replace('.json', `-enriched.json`)
-        writeFileSync(outPath, JSON.stringify(result, null, 2))
-        console.log(`Saved to ${outPath}`)
-        console.log(`  enriched_with: ${result._meta.enriched_with}`)
-        console.log(`  duration: ${result._meta.enrich_duration_ms}ms`)
-        console.log(`  tokens: ${result._meta.enrich_tokens_in} in / ${result._meta.enrich_tokens_out} out`)
-    })
-    .catch(err => console.error('Error:', err))
+if (process.argv[1]?.endsWith('enrich.ts')) {
+    const extractedPath = process.argv[2] ?? 'examples/openai-eng-gpt-oss-safeguard-20b.json'
+    const extracted = JSON.parse(readFileSync(extractedPath, 'utf-8'))
+    enrichJD(extracted)
+        .then(({ result, model }) => {
+            const ts = new Date().toISOString().replace(/[-:]/g, '').replace('T', '-').slice(0, 15)
+            const outPath = extractedPath.replace('.json', `-enriched-${ts}.json`)
+            writeFileSync(outPath, JSON.stringify(result, null, 2))
+            console.log(`Saved to ${outPath}`)
+            console.log(`  enriched_with: ${result._meta.enriched_with}`)
+            console.log(`  duration: ${result._meta.enrich_duration_ms}ms`)
+            console.log(`  tokens: ${result._meta.enrich_tokens_in} in / ${result._meta.enrich_tokens_out} out`)
+        })
+        .catch(err => console.error('Error:', err))
+}

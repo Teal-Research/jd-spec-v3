@@ -19,7 +19,7 @@ async function fetchCost(generationId: string): Promise<number | null> {
     return data?.data?.total_cost ?? null
 }
 
-async function extractJD(jdText: string, jdFile: string) {
+export async function extractJD(jdText: string, jdFile: string) {
     const openroutermodel = 'openai/gpt-oss-safeguard-20b'
     const model = openroutermodel.split('/')[1]
 
@@ -57,17 +57,19 @@ async function extractJD(jdText: string, jdFile: string) {
     return { result: JSON.parse(cleaned), model, stats }
 }
 
-const jdFile = 'sample-jds/openai-engineer.md'
-const jdText = readFileSync(jdFile, 'utf-8')
-
-extractJD(jdText, jdFile)
-    .then(({ result, model, stats }) => {
-        const file = `examples/openai-eng-${model}.json`
-        writeFileSync(file, JSON.stringify({ _meta: stats, ...result }, null, 2))
-        console.log(`Saved to ${file}`)
-        console.log(`  model:    ${stats.model}`)
-        console.log(`  duration: ${stats.duration_ms}ms`)
-        console.log(`  tokens:   ${stats.tokens_in} in / ${stats.tokens_out} out`)
-        console.log(`  cost:     $${stats.cost_usd != null ? stats.cost_usd.toFixed(8) : 'unknown'}`)
-    })
-    .catch(err => console.error('Error:', err))
+if (process.argv[1]?.endsWith('extract.ts')) {
+    const jdFile = 'sample-jds/openai-engineer.md'
+    const jdText = readFileSync(jdFile, 'utf-8')
+    extractJD(jdText, jdFile)
+        .then(({ result, model, stats }) => {
+            const ts = new Date().toISOString().replace(/[-:]/g, '').replace('T', '-').slice(0, 15)
+            const file = `examples/${ts}-openai-eng-${model}.json`
+            writeFileSync(file, JSON.stringify({ ...result, _meta: stats }, null, 2))
+            console.log(`Saved to ${file}`)
+            console.log(`  model:    ${stats.model}`)
+            console.log(`  duration: ${stats.duration_ms}ms`)
+            console.log(`  tokens:   ${stats.tokens_in} in / ${stats.tokens_out} out`)
+            console.log(`  cost:     $${stats.cost_usd != null ? stats.cost_usd.toFixed(8) : 'unknown'}`)
+        })
+        .catch(err => console.error('Error:', err))
+}

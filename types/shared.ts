@@ -27,7 +27,7 @@ export interface Benefit {
 }
 
 export interface WorkSetting {
-    policy: 'remote' | 'hybrid' | 'onsite' | 'flexible'
+    policy: 'remote' | 'hybrid' | 'onsite' | 'remote_or_office'
     office_days_per_week_min?: number   // hybrid: "2-3 days/week" → 2
     office_days_per_week_max?: number   // hybrid: "2-3 days/week" → 3
     anchor_days?: Array<'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'friday'>  // required in-office days if specified
