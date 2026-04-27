@@ -7,19 +7,30 @@ export interface Skill {
 }
 
 export type BenefitCategory =
-    'retirement' |      // 401k, pension
-    'health' |          // medical, dental, vision
-    'pto' |             // vacation, sick leave, holidays
-    'parental_leave' |  // maternity, paternity, adoption
-    'equity' |          // stock options, RSUs, ESPP
-    'bonus' |           // performance, sign-on, annual
-    'wellness' |        // gym, mental health, EAP
-    'learning' |        // tuition, conferences, certifications
-    'remote_stipend' |  // home office cash allowance, internet reimbursement
-    'equipment' |       // company-provided gear, laptop, peripherals
-    'meals' |           // food, snacks, catering
-    'commuter' |        // transit, parking
-    'insurance' |       // life, disability, pet
+    'retirement' |       // 401k, pension, regional retirement plans
+    'health' |           // bundled medical/healthcare package
+    'dental' |           // dental coverage (when listed separately)
+    'vision' |           // vision coverage (when listed separately)
+    'pto' |              // vacation, sick leave, holidays, jury duty
+    'bereavement' |      // bereavement / compassionate leave
+    'parental_leave' |   // maternity, paternity, baby bonding
+    'caregiver_leave' |  // leave to care for ill family member
+    'fertility' |        // IVF, egg freezing, surrogacy, growing family support
+    'adoption' |         // adoption assistance
+    'childcare' |        // backup childcare, daycare support
+    'eldercare' |        // elder care and support programs
+    'equity' |           // stock options, RSUs, ESPP
+    'bonus' |            // performance, sign-on, annual, commissions, referral
+    'student_loan' |     // student loan reimbursement
+    'wellness' |         // gym, mental health, EAP, massage, fitness classes
+    'learning' |         // tuition, conferences, certifications, coaching
+    'charitable_giving' |// donation matching, volunteer time off
+    'legal' |            // legal services
+    'remote_stipend' |   // home office cash allowance, internet reimbursement
+    'equipment' |        // company-provided gear, laptop, peripherals
+    'meals' |            // food, snacks, catering, on-site meals
+    'commuter' |         // transit, parking
+    'insurance' |        // life, disability, AD&D, pet, survivor income
     'other'
 
 export interface Benefit {
